@@ -1,5 +1,7 @@
 # Groundcrew
 
+`groundcrew-studio` on npm, GitHub and plugin marketplaces.
+
 **The team behind every safe launch — for builders who ship with AI.**
 
 AI coding agents let anyone build an app in a weekend. Most of those apps go live
@@ -68,14 +70,21 @@ CLI, Cline and other compatible agents.
 ### Claude Code (recommended: includes the deploy-gate hook)
 
 ```
-/plugin marketplace add <org>/groundcrew
-/plugin install groundcrew@groundcrew
+/plugin marketplace add AlwaysHelpfulandFree/groundcrew-studio
+/plugin install groundcrew-studio@groundcrew-studio
 ```
 
 ### Any agent (via the Skills CLI)
 
 ```
-npx skills add <org>/groundcrew
+npx skills add AlwaysHelpfulandFree/groundcrew-studio
+```
+
+### npm (for CI and scripts)
+
+```
+npx groundcrew-studio install   # installs the skill into every agent on this machine (uses the Skills CLI)
+npx groundcrew-studio gate      # deploy gate check; exits non-zero when blocked
 ```
 
 ### Manually
@@ -96,7 +105,7 @@ I vibe coded this booking app and it's live. Can you check it's safe and fix wha
 ```
 
 ```
-/groundcrew
+/groundcrew-studio:groundcrew
 ```
 
 ## How the gate is enforced

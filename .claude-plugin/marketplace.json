@@ -1,9 +1,11 @@
 {
-  "name": "groundcrew",
-  "owner": { "name": "Groundcrew maintainers" },
+  "name": "groundcrew-studio",
+  "owner": {
+    "name": "AlwaysHelpfulandFree"
+  },
   "plugins": [
     {
-      "name": "groundcrew",
+      "name": "groundcrew-studio",
       "source": "./",
       "description": "A full product team for AI-assisted builders, with hard launch gates."
     }

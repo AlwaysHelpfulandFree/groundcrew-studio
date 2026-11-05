@@ -1,7 +1,19 @@
 {
-  "name": "groundcrew",
+  "name": "groundcrew-studio",
   "version": "0.1.0",
   "description": "A full product team for AI-assisted builders: takes an idea (or an existing app) through product, UX, UI, architecture, build, QA, security, legal, deployment and operations, with hard gates before anything goes live.",
   "license": "MIT",
-  "keywords": ["vibe-coding", "security", "ux", "legal", "deployment", "agent-skills"]
+  "keywords": [
+    "vibe-coding",
+    "security",
+    "ux",
+    "legal",
+    "deployment",
+    "agent-skills"
+  ],
+  "homepage": "https://github.com/AlwaysHelpfulandFree/groundcrew-studio",
+  "repository": "https://github.com/AlwaysHelpfulandFree/groundcrew-studio",
+  "author": {
+    "name": "AlwaysHelpfulandFree"
+  }
 }

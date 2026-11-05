@@ -1,0 +1,14 @@
+{
+  "name": "groundcrew-studio",
+  "version": "0.1.0",
+  "description": "A full product team for AI-assisted builders: idea to safe launch, with hard QA, security and legal gates. Agent Skill for Claude Code, Codex, Cursor, Antigravity, Gemini CLI and more.",
+  "license": "MIT",
+  "author": "AlwaysHelpfulandFree",
+  "homepage": "https://github.com/AlwaysHelpfulandFree/groundcrew-studio#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/AlwaysHelpfulandFree/groundcrew-studio.git" },
+  "bugs": { "url": "https://github.com/AlwaysHelpfulandFree/groundcrew-studio/issues" },
+  "keywords": ["agent-skills", "claude-code", "codex", "cursor", "antigravity", "vibe-coding", "security", "ux", "legal", "deployment"],
+  "bin": { "groundcrew-studio": "bin/cli.cjs" },
+  "files": ["bin/", "skills/groundcrew/SKILL.md", "skills/groundcrew/references/", "skills/groundcrew/scripts/", "skills/groundcrew/assets/", ".claude-plugin/", "hooks/", "README.md", "LICENSE"],
+  "engines": { "node": ">=16" }
+}
