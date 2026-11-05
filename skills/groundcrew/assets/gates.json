@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "required_for_deploy": ["qa", "security", "legal"],
+  "auto_deploy_branches": [],
+  "gates": {
+    "qa": {
+      "status": "pending",
+      "commit": null,
+      "checked_at": null,
+      "evidence": ".groundcrew/reports/qa.md",
+      "blockers": []
+    },
+    "security": {
+      "status": "pending",
+      "commit": null,
+      "checked_at": null,
+      "evidence": ".groundcrew/reports/security.md",
+      "blockers": []
+    },
+    "legal": {
+      "status": "pending",
+      "commit": null,
+      "checked_at": null,
+      "evidence": ".groundcrew/reports/legal.md",
+      "signed_off_by": null,
+      "stale_on_code_change": false,
+      "blockers": []
+    }
+  }
+}

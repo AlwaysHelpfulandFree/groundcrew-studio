@@ -1,0 +1,17 @@
+{
+  "description": "Groundcrew launch gate: blocks deploy commands in Groundcrew projects until QA, security and legal have passed on the current commit.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/skills/groundcrew/scripts/gatecheck.cjs\" --hook",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

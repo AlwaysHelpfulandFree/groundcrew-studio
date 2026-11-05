@@ -1,0 +1,11 @@
+{
+  "name": "groundcrew",
+  "owner": { "name": "Groundcrew maintainers" },
+  "plugins": [
+    {
+      "name": "groundcrew",
+      "source": "./",
+      "description": "A full product team for AI-assisted builders, with hard launch gates."
+    }
+  ]
+}
